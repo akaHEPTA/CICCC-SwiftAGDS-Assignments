@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C03E4D02409E46B0021F40C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C03E4C82409E46B0021F40C /* Queue.swift */; };
+		9C03E4D12409E46B0021F40C /* Error+CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C03E4C92409E46B0021F40C /* Error+CustomErrors.swift */; };
+		9C03E4D22409E46B0021F40C /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C03E4CA2409E46B0021F40C /* Bag.swift */; };
+		9C03E4D32409E46B0021F40C /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C03E4CB2409E46B0021F40C /* Graph.swift */; };
+		9C03E4D42409E46B0021F40C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C03E4CC2409E46B0021F40C /* main.swift */; };
+		9C03E4D52409E46B0021F40C /* BreadthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C03E4CD2409E46B0021F40C /* BreadthFirstSearch.swift */; };
+		9C03E4D62409E46B0021F40C /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C03E4CE2409E46B0021F40C /* Stack.swift */; };
+		9C03E4D72409E46B0021F40C /* DepthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C03E4CF2409E46B0021F40C /* DepthFirstSearch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C03E4BC2409E4570021F40C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C03E4BE2409E4570021F40C /* SushiRestaurant */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SushiRestaurant; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C03E4C82409E46B0021F40C /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		9C03E4C92409E46B0021F40C /* Error+CustomErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+CustomErrors.swift"; sourceTree = "<group>"; };
+		9C03E4CA2409E46B0021F40C /* Bag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		9C03E4CB2409E46B0021F40C /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		9C03E4CC2409E46B0021F40C /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../TEMP/sushiRestaurant/main.swift; sourceTree = "<group>"; };
+		9C03E4CD2409E46B0021F40C /* BreadthFirstSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadthFirstSearch.swift; sourceTree = "<group>"; };
+		9C03E4CE2409E46B0021F40C /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		9C03E4CF2409E46B0021F40C /* DepthFirstSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthFirstSearch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C03E4BB2409E4570021F40C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C03E4B52409E4570021F40C = {
+			isa = PBXGroup;
+			children = (
+				9C03E4C02409E4570021F40C /* SushiRestaurant */,
+				9C03E4BF2409E4570021F40C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C03E4BF2409E4570021F40C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C03E4BE2409E4570021F40C /* SushiRestaurant */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C03E4C02409E4570021F40C /* SushiRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				9C03E4CA2409E46B0021F40C /* Bag.swift */,
+				9C03E4CD2409E46B0021F40C /* BreadthFirstSearch.swift */,
+				9C03E4CF2409E46B0021F40C /* DepthFirstSearch.swift */,
+				9C03E4C92409E46B0021F40C /* Error+CustomErrors.swift */,
+				9C03E4CB2409E46B0021F40C /* Graph.swift */,
+				9C03E4CC2409E46B0021F40C /* main.swift */,
+				9C03E4C82409E46B0021F40C /* Queue.swift */,
+				9C03E4CE2409E46B0021F40C /* Stack.swift */,
+			);
+			path = SushiRestaurant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C03E4BD2409E4570021F40C /* SushiRestaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C03E4C52409E4570021F40C /* Build configuration list for PBXNativeTarget "SushiRestaurant" */;
+			buildPhases = (
+				9C03E4BA2409E4570021F40C /* Sources */,
+				9C03E4BB2409E4570021F40C /* Frameworks */,
+				9C03E4BC2409E4570021F40C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SushiRestaurant;
+			productName = SushiRestaurant;
+			productReference = 9C03E4BE2409E4570021F40C /* SushiRestaurant */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C03E4B62409E4570021F40C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Richard Cho";
+				TargetAttributes = {
+					9C03E4BD2409E4570021F40C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9C03E4B92409E4570021F40C /* Build configuration list for PBXProject "SushiRestaurant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C03E4B52409E4570021F40C;
+			productRefGroup = 9C03E4BF2409E4570021F40C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C03E4BD2409E4570021F40C /* SushiRestaurant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C03E4BA2409E4570021F40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C03E4D72409E46B0021F40C /* DepthFirstSearch.swift in Sources */,
+				9C03E4D12409E46B0021F40C /* Error+CustomErrors.swift in Sources */,
+				9C03E4D42409E46B0021F40C /* main.swift in Sources */,
+				9C03E4D22409E46B0021F40C /* Bag.swift in Sources */,
+				9C03E4D62409E46B0021F40C /* Stack.swift in Sources */,
+				9C03E4D02409E46B0021F40C /* Queue.swift in Sources */,
+				9C03E4D52409E46B0021F40C /* BreadthFirstSearch.swift in Sources */,
+				9C03E4D32409E46B0021F40C /* Graph.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C03E4C32409E4570021F40C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C03E4C42409E4570021F40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9C03E4C62409E4570021F40C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZRKW6S835;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9C03E4C72409E4570021F40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZRKW6S835;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C03E4B92409E4570021F40C /* Build configuration list for PBXProject "SushiRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C03E4C32409E4570021F40C /* Debug */,
+				9C03E4C42409E4570021F40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C03E4C52409E4570021F40C /* Build configuration list for PBXNativeTarget "SushiRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C03E4C62409E4570021F40C /* Debug */,
+				9C03E4C72409E4570021F40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C03E4B62409E4570021F40C /* Project object */;
+}
